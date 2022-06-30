@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 
 # Hey Everyone
 
-**I am a very busy and lazy programmer
+**I am a very busy programmer
 I love programming, its like leaving this plain of existence and just walking in
 A dream world where anything is possible if u have the time and knowledge.** 
 
@@ -28,7 +28,7 @@ A dream world where anything is possible if u have the time and knowledge.**
 
 	Bash
 	C#
-	C++
+	C++ (noob)
 	Css
 	Html
 	JavaScript
@@ -52,10 +52,10 @@ A dream world where anything is possible if u have the time and knowledge.**
 ### Libraries I am studying:
 	
 	Dataclasses(python built-in)
-	Pandas(python)
+	Pandas
 	React
-	Scikit learn(python)
-	Sockets
+	Scikit learn
 	Vue
+	Nuxt.js
 
 i do not have time to list off of them but  i am busy busy busy
