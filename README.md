@@ -27,10 +27,10 @@ A dream world where anything is possible if u have the time and knowledge.**
 ### I work in the following languages :
 
 	Bash
-	C#
+	C# .Net Framework
 	C++ (noob)
 	Css
-	Html
+	Html 5
 	JavaScript
 	Pascal
 	Php
