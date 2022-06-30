@@ -36,7 +36,6 @@ A dream world where anything is possible if u have the time and knowledge.**
 	Php
 	Python
 	SQL
-	Shell
 
 	
 #### I am still studying:
