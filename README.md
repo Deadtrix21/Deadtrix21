@@ -1,4 +1,4 @@
-
+￼ 
 
 <!--
 **Deadtrix21/Deadtrix21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -30,8 +30,9 @@ A dream world where anything is possible if u have the time and knowledge.**
 	C# .Net Framework
 	C++ (noob)
 	Css
-	Html 5
+	Html
 	JavaScript
+	TypeScript
 	Pascal
 	Php
 	Python
