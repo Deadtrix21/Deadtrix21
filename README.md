@@ -41,12 +41,9 @@ A dream world where anything is possible if u have the time and knowledge.**
 	
 #### I am still studying:
 	
-	Asm
-	C
 	Go
 	Java
 	Kotlin
-	VB
 
 
 ### Libraries I am studying:
