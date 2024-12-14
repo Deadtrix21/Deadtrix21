@@ -1,5 +1,3 @@
-￼ 
-
 <!--
 **Deadtrix21/Deadtrix21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -16,43 +14,50 @@ Here are some ideas to get you started:
 -->
 
 
+> ### Reasons for working on certain projects:
+> I have a passion for learning when it comes to programming.
+> Now I won't say all the projects that I create are for good use, and i won't make excuses for/ on them.
+>
+> However they are all for learing purposes.
+> I do ask thou, if u are using one of my projects as a base, to please reference my profile somewhere where people can and will see it.
+> 
+> The reason is because it helps me and my portfolio
+<br>
 
-# Hey Everyone
+<br>
 
-**I am a very busy programmer
-I love programming, its like leaving this plain of existence and just walking in
-A dream world where anything is possible if u have the time and knowledge.** 
+> ### What can I already use PROFESSIONALLY:
+> - C#
+> - PHP
+> - Python
+> - JavaScript
+> - HTML
+> - CSS
+> - SQL (MySql, MsSql)
+> - NoSql (MongoDb)
+<br>
 
-# Languages
-### I work in the following languages :
+<br>
 
-	Bash
-	C# .Net Framework
-	C++ (noob)
-	Css
-	Html
-	JavaScript
-	TypeScript
-	Pascal
-	Php
-	Python
-	SQL
+> ### What else can i use:
+> - C++
+> - TypeScript
+> - Pascal
+<br>
 
+<br>
+
+> ### What am I learning:
+> - Go
+> - Java
+> - Kotlin
+<br>
+
+<br>
 	
-#### I am still studying:
-	
-	Go
-	Java
-	Kotlin
 
+> ### Libraries that i am studying or using:
+> PHP
+> > Inertia.js
+> > Laravel
 
-### Libraries I am studying:
-	
-	Dataclasses(python built-in)
-	Pandas
-	React
-	Scikit learn
-	Vue
-	Nuxt.js
-
-i do not have time to list off of them but  i am busy busy busy
