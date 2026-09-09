@@ -3,7 +3,7 @@
 -->
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=3B82F6&center=true&vCenter=true&width=500&lines=Hi,+I'm+Jay+(@Deadtrix21);Software+Developer;Systems+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=3B82F6&center=true&vCenter=true&width=500&lines=Hi,+I'm+D+(@Deadtrix21);Software+Developer;Systems+Engineer" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -91,3 +91,18 @@
 <p align="center">
   <b>📫 How to reach me:</b> Open an issue or a PR on any of my pinned repositories like <code>Esp32</code>, <code>crispy-fiesta</code>, or <code>ZNRG-PUBLIC</code>!
 </p>
+
+
+```math
+C_i =
+\lfloor
+2^{64}
+\bigl(
+\pi\sqrt{p_i}
+-
+\lfloor\pi\sqrt{p_i}\rfloor
+\bigr)
+\rfloor,
+\qquad i = 1,\dots,600
+```
+
