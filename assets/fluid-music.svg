@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 485" width="1000" height="485" role="img" aria-labelledby="title desc">
+<title id="title">FluidMusic — one queue, different engines</title>
+<desc id="desc">Spotify, radio and local-library entries share a coordinator. Spotify plays on a Connect device; radio and local audio play inside Hermes. Audio analysis is source-dependent.</desc>
+<style>.flow{stroke-dasharray:12 16;animation:flow 5s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}.wave{transform-box:fill-box;transform-origin:center;animation:wave 1.8s ease-in-out infinite alternate}.wave:nth-child(3n){animation-delay:-.6s}.wave:nth-child(3n + 1){animation-delay:-1.2s}@keyframes flow{to{stroke-dashoffset:-140}}@keyframes pulse{50%{opacity:.4}}@keyframes wave{to{transform:scaleY(.35)}}@media(prefers-reduced-motion:reduce){.flow,.pulse,.wave{animation:none}}</style>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0H0V32" fill="none" stroke="#26333b" stroke-opacity=".35"/>
+</pattern>
+</defs>
+<rect width="1000" height="485" rx="12" fill="#0b1218"/>
+<rect x="1" y="1" width="998" height="483" rx="12" fill="url(#grid)" stroke="#2c3b43"/>
+<text x="36" y="38" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">01 / FLUIDMUSIC</text>
+<text x="730" y="38" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347" letter-spacing="1.2">HERMES DESKTOP</text>
+<text x="36" y="85" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="700" fill="#f4f0e6" >One queue. Different engines.</text>
+<text x="36" y="117" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" fill="#aab8be" >Keep the listening flow. Keep the provider boundaries.</text>
+<text x="36" y="160" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">SOURCES</text>
+<text x="355" y="160" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">COORDINATOR</text>
+<text x="730" y="160" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">PLAYBACK</text>
+<rect x="36" y="180" width="257" height="62" rx="8" fill="#121d24" stroke="#34434e"/>
+<text x="52" y="206" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#f4f0e6" >Spotify</text>
+<text x="52" y="228" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" fill="#aab8be" >Catalog + Connect controls</text>
+<path d="M293 211H337V289H355" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<rect x="36" y="258" width="257" height="62" rx="8" fill="#121d24" stroke="#34434e"/>
+<text x="52" y="284" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#f4f0e6" >Internet radio</text>
+<text x="52" y="306" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" fill="#aab8be" >Discovery + HTTPS streams</text>
+<path d="M293 289H337V289H355" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<rect x="36" y="336" width="257" height="62" rx="8" fill="#121d24" stroke="#34434e"/>
+<text x="52" y="362" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" fill="#f4f0e6" >Local library</text>
+<text x="52" y="384" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" fill="#aab8be" >Approved folders + SQLite</text>
+<path d="M293 367H337V289H355" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<rect x="355" y="207" width="295" height="164" rx="8" fill="#121d24" stroke="#3ad6c6"/>
+<text x="377" y="240" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" fill="#f4f0e6" >FluidMusic</text>
+<text x="377" y="269" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#d4dfdf" >Mixed playlists + queue</text>
+<path d="M377 287H628" fill="none" stroke="#34434e" stroke-width="2" class=""/>
+<text x="377" y="313" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#aab8be" >Source-aware controls</text>
+<text x="377" y="341" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#aab8be" >Player dock + mini-player</text>
+<path d="M650 253H693V218H725M650 315H693V334H725" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<rect x="725" y="180" width="239" height="80" rx="8" fill="#121d24" stroke="#34434e"/>
+<text x="742" y="211" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" fill="#f4f0e6" >Spotify device</text>
+<text x="742" y="239" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#ffb347" >Remote control only</text>
+<rect x="725" y="291" width="239" height="107" rx="8" fill="#121d24" stroke="#34434e"/>
+<text x="742" y="322" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" fill="#f4f0e6" >Hermes audio</text>
+<text x="742" y="350" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8be" >Radio + local playback</text>
+<rect class="wave" x="744" y="373.0" width="7" height="10" rx="2" fill="#3ad6c6"/>
+<rect class="wave" x="760" y="368.0" width="7" height="20" rx="2" fill="#3ad6c6"/>
+<rect class="wave" x="776" y="372.0" width="7" height="12" rx="2" fill="#3ad6c6"/>
+<rect class="wave" x="792" y="365.0" width="7" height="26" rx="2" fill="#3ad6c6"/>
+<rect class="wave" x="808" y="370.0" width="7" height="16" rx="2" fill="#3ad6c6"/>
+<rect class="wave" x="824" y="367.0" width="7" height="22" rx="2" fill="#3ad6c6"/>
+<rect class="wave" x="840" y="372.0" width="7" height="12" rx="2" fill="#3ad6c6"/>
+<rect class="wave" x="856" y="369.0" width="7" height="18" rx="2" fill="#3ad6c6"/>
+<rect class="wave" x="872" y="374.0" width="7" height="8" rx="2" fill="#3ad6c6"/>
+<rect class="wave" x="888" y="366.0" width="7" height="24" rx="2" fill="#3ad6c6"/>
+<rect class="wave" x="904" y="371.0" width="7" height="14" rx="2" fill="#3ad6c6"/>
+<rect class="wave" x="920" y="368.0" width="7" height="20" rx="2" fill="#3ad6c6"/>
+<path d="M36 429H964" fill="none" stroke="#34434e" stroke-width="2" class=""/>
+<text x="36" y="457" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8be" >Visualization needs accessible audio samples — never Spotify Connect audio.</text>
+</svg>

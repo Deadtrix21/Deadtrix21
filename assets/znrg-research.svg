@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="410" viewBox="0 0 1000 410" role="img" aria-labelledby="title desc">
+<title id="title">ZNRG — experimental work, explicit limits</title>
+<desc id="desc">The public repository includes znrg.dll and sample original, encrypted and restored files. This diagram inventories published artifacts; it does not establish cryptographic security or report a test result.</desc>
+<style>.flow{stroke-dasharray:12 16;animation:flow 5s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}@keyframes flow{to{stroke-dashoffset:-140}}@keyframes pulse{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}</style>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0H0V32" fill="none" stroke="#26343d" stroke-opacity=".34"/>
+</pattern>
+</defs>
+<rect width="1000" height="410" rx="12" fill="#0b1015"/>
+<rect x="1" y="1" width="998" height="408" rx="12" fill="url(#grid)" stroke="#34434e"/>
+<text x="36" y="38" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347">ZNRG / PERSONAL RESEARCH</text>
+<text x="36" y="84" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f4f0e6">Explore the mechanism. State the limits.</text>
+<text x="36" y="116" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#aab8c0">A public artifact shelf for experimental cryptography and native-library work.</text>
+<rect x="36" y="149" width="252" height="170" rx="8" fill="#131e25" stroke="#3ad6c6"/>
+<text x="57" y="179" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">NATIVE ARTIFACT</text>
+<path d="M59 205H104L120 221V281H59Z" fill="none" stroke="#34434e" stroke-width="2" class=""/>
+<path d="M104 205V221H120" fill="none" stroke="#34434e" stroke-width="2" class=""/>
+<text x="139" y="235" font-family="Consolas,monospace" font-size="23" font-weight="700" fill="#f4f0e6">znrg.dll</text>
+<text x="139" y="264" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" fill="#aab8c0">Public binary</text>
+<text x="352" y="169" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">PUBLISHED SAMPLE FILES</text>
+<path d="M288 235H333V255H353" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<rect x="352" y="191" width="182" height="128" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="370" y="220" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#f4f0e6">Original</text>
+<rect x="370" y="240" width="40" height="42" rx="3" fill="#0b1015" stroke="#34434e"/>
+<rect x="378" y="247" width="40" height="42" rx="3" fill="#0b1015" stroke="#34434e"/>
+<rect x="386" y="254" width="40" height="42" rx="3" fill="#0b1015" stroke="#34434e"/>
+<text x="432" y="272" font-family="Consolas,monospace" font-size="16" font-weight="400" fill="#3ad6c6">.txt</text>
+<rect x="567" y="191" width="182" height="128" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="585" y="220" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#f4f0e6">Encrypted</text>
+<rect x="585" y="240" width="40" height="42" rx="3" fill="#0b1015" stroke="#34434e"/>
+<rect x="593" y="247" width="40" height="42" rx="3" fill="#0b1015" stroke="#34434e"/>
+<rect x="601" y="254" width="40" height="42" rx="3" fill="#0b1015" stroke="#34434e"/>
+<text x="647" y="272" font-family="Consolas,monospace" font-size="16" font-weight="400" fill="#3ad6c6">.znrg</text>
+<rect x="782" y="191" width="182" height="128" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="800" y="220" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#f4f0e6">Restored</text>
+<rect x="800" y="240" width="40" height="42" rx="3" fill="#0b1015" stroke="#34434e"/>
+<rect x="808" y="247" width="40" height="42" rx="3" fill="#0b1015" stroke="#34434e"/>
+<rect x="816" y="254" width="40" height="42" rx="3" fill="#0b1015" stroke="#34434e"/>
+<text x="862" y="272" font-family="Consolas,monospace" font-size="16" font-weight="400" fill="#3ad6c6">restored</text>
+<path d="M534 255h33" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<path d="M749 255h33" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<path d="M36 348H964" fill="none" stroke="#34434e" stroke-width="2" class=""/>
+<circle cx="43" cy="377" r="5" fill="#ffb347" class="pulse"/>
+<text x="59" y="383" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8c0">Published artifacts are not an independent cryptographic security audit.</text>
+</svg>

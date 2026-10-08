@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="468" viewBox="0 0 1000 468" role="img" aria-labelledby="title desc">
+<title id="title">Tools I reach for — application logic, interfaces, data and environment</title>
+<desc id="desc">Languages and tools grouped by the work they support, with Go, Java and Kotlin identified separately as learning and exploration.</desc>
+<style>.flow{stroke-dasharray:12 16;animation:flow 5s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}@keyframes flow{to{stroke-dashoffset:-140}}@keyframes pulse{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}</style>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0H0V32" fill="none" stroke="#26343d" stroke-opacity=".34"/>
+</pattern>
+</defs>
+<rect width="1000" height="468" rx="12" fill="#0b1015"/>
+<rect x="1" y="1" width="998" height="466" rx="12" fill="url(#grid)" stroke="#34434e"/>
+<text x="36" y="38" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347">TOOLS I REACH FOR</text>
+<text x="36" y="84" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f4f0e6">Choose the tool. Understand the trade-off.</text>
+<path d="M57 156V360" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<circle cx="57" cy="155" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<path d="M63 155H86" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<rect x="86" y="123" width="878" height="56" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="105" y="156" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">APPLICATION LOGIC</text>
+<text x="345" y="158" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#f4f0e6">C#  /  PHP  /  Python  /  JavaScript</text>
+<circle cx="57" cy="223" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<path d="M63 223H86" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<rect x="86" y="191" width="878" height="56" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="105" y="224" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">INTERFACES</text>
+<text x="345" y="226" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#f4f0e6">TypeScript  /  React  /  Laravel  /  WPF</text>
+<circle cx="57" cy="291" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<path d="M63 291H86" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<rect x="86" y="259" width="878" height="56" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="105" y="292" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">DATA</text>
+<text x="345" y="294" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#f4f0e6">MySQL  /  SQL Server  /  MongoDB</text>
+<circle cx="57" cy="359" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<path d="M63 359H86" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<rect x="86" y="327" width="878" height="56" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="105" y="360" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">ENVIRONMENT</text>
+<text x="345" y="362" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#f4f0e6">Docker  /  Linux  /  WSL</text>
+<path d="M36 406H964" fill="none" stroke="#34434e" stroke-width="2" class=""/>
+<text x="36" y="441" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347">EXPLORING</text>
+<text x="182" y="441" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" fill="#aab8c0">Go / Java / Kotlin</text>
+<text x="610" y="441" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8c0">Learning is part of the workflow.</text>
+</svg>

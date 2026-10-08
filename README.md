@@ -35,9 +35,11 @@ Not everything here is a finished product. Some projects are practical tools; ot
 
 A lot of my recent work lives under **[Noxius Studium](https://github.com/noxius-studium)**. That is where the wider collection of tools and experiments lives.
 
-<img src="./assets/selected-work.svg" width="100%" alt="Selected projects: FluidMusic's source-aware queue, Enchanted Composer's drafts and voice, and EventFlowSys's message routing." />
+
 
 ### [FluidMusic](https://github.com/noxius-studium/fluid-music)
+
+<a href="https://github.com/noxius-studium/fluid-music"><img src="./assets/fluid-music.svg" width="100%" alt="FluidMusic: one queue coordinates Spotify Connect, internet radio, and local music while keeping their playback engines separate." /></a>
 
 A music workspace for **Hermes Desktop**: Spotify Connect, internet radio, a persistent local library, mixed playlists, and source-aware controls. One listening workflow, without pretending every provider has the same playback engine. Audio visualization is available only where the source exposes samples—not Spotify Connect.
 
@@ -45,11 +47,15 @@ A music workspace for **Hermes Desktop**: Spotify Connect, internet radio, a per
 
 ### [Enchanted Composer](https://github.com/noxius-studium/enchanted-composer)
 
+<a href="https://github.com/noxius-studium/enchanted-composer"><img src="./assets/enchanted-composer.svg" width="100%" alt="Enchanted Composer: unsent drafts, reusable prompts and undo/redo are separate from explicitly started, owner-bound voice." /></a>
+
 Draft enhancement, reusable prompt libraries, multi-step undo/redo, and explicitly started, **owner-bound live voice** for Hermes Desktop. Native send controls stay intact. Ordinary voice transcripts remain temporary; delegated tool work stays with the captured chat.
 
 [Installation](https://github.com/noxius-studium/enchanted-composer/blob/main/docs/installation.md) · [Architecture](https://github.com/noxius-studium/enchanted-composer/blob/main/docs/architecture.md)
 
 ### [EventFlowSys](https://github.com/noxius-studium/eventflowsys)
+
+<a href="https://github.com/noxius-studium/eventflowsys"><img src="./assets/event-systems.svg" width="100%" alt="EventFlowSys routes messages with priority and TTL to threaded and async subscriber groups, with hooks and metrics." /></a>
 
 A Python event bus with **threaded and `asyncio` implementations**, grouped subscriptions, priority, TTL, hooks, and metrics. An exploration of making message delivery and its boundaries easier to inspect.
 
@@ -57,11 +63,15 @@ A Python event bus with **threaded and `asyncio` implementations**, grouped subs
 
 ### [ZNRG](https://github.com/Deadtrix21/ZNRG-PUBLIC)
 
+<a href="https://github.com/Deadtrix21/ZNRG-PUBLIC"><img src="./assets/znrg-research.svg" width="100%" alt="ZNRG public artifact shelf: znrg.dll and example original, encrypted and restored files. Published samples are not an independent cryptographic security audit." /></a>
+
 My experimental cryptography and native-library work. The public repository currently contains **binary artifacts, example files, and screenshots**, rather than the implementation source. It is a research project—not a claim of independently audited or production-proven cryptography.
 
 **Also worth exploring:** [REST / GraphQL / SOAP](https://github.com/noxius-studium/soap-json-graphql-example), an educational comparison around a shared user domain. My private workbench also includes South African ID-number conformance and desktop tooling; those are not public downloads.
 
 ## Tools I reach for
+
+<img src="./assets/toolset.svg" width="100%" alt="My toolset grouped by application logic, interfaces, data, and environment. Go, Java, and Kotlin remain learning and exploration areas." />
 
 | Area | Languages and tools |
 | :--- | :--- |

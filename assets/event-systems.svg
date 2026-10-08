@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">EventFlowSys architecture</title>
+  <desc id="desc">Publishers send prioritized messages through an event bus to threaded and asynchronous subscriber groups.</desc>
+  <style>
+    .m1{animation:m1 3.4s linear infinite}.m2{animation:m2 3.4s linear 1.2s infinite}.m3{animation:m3 3.4s linear 2.3s infinite}
+    @keyframes m1{0%{transform:translate(0,0);opacity:0}12%{opacity:1}48%{transform:translate(286px,0)}74%{transform:translate(615px,-40px)}100%{transform:translate(930px,-40px);opacity:0}}
+    @keyframes m2{0%{transform:translate(0,0);opacity:0}12%{opacity:1}48%{transform:translate(286px,-57px)}74%{transform:translate(615px,-17px)}100%{transform:translate(930px,-17px);opacity:0}}
+    @keyframes m3{0%{transform:translate(0,0);opacity:0}12%{opacity:1}48%{transform:translate(286px,-114px)}74%{transform:translate(615px,-74px)}100%{transform:translate(930px,-74px);opacity:0}}
+    @media(prefers-reduced-motion:reduce){.m1,.m2,.m3{animation:none}}
+  </style>
+  <rect width="1200" height="300" rx="12" fill="#10171d"/>
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" letter-spacing="1.6">
+    <text x="42" y="43" fill="#ffb347" font-size="12">EVENT SYSTEMS / REFERENCE</text>
+    <text x="1158" y="43" fill="#70808b" font-size="12" text-anchor="end">THREADS · ASYNCIO · METRICS</text>
+  </g>
+  <text x="42" y="85" fill="#f4f0e6" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700">Messages should reveal where they went — and where they did not.</text>
+  <g transform="translate(42 121)" font-family="Arial,Helvetica,sans-serif">
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" letter-spacing="1.2" fill="#82909a">
+      <text x="0" y="-10">PUBLISHERS</text><text x="340" y="-10">EVENT BUS</text><text x="690" y="-10">SUBSCRIBER GROUPS</text>
+    </g>
+    <g fill="#151f26" stroke="#34434e">
+      <rect y="0" width="180" height="40" rx="7"/><rect y="57" width="180" height="40" rx="7"/><rect y="114" width="180" height="40" rx="7"/>
+    </g>
+    <g fill="#d2d9de" font-family="ui-monospace,Consolas,monospace" font-size="13"><text x="18" y="25">api.request</text><text x="18" y="82">file.changed</text><text x="18" y="139">job.ready</text></g>
+    <path d="M180 20h160M180 77h160M180 134h160" stroke="#42515c" stroke-width="2" stroke-dasharray="5 7"/>
+    <g transform="translate(340)">
+      <rect width="270" height="154" rx="10" fill="#151f26" stroke="#3ad6c6"/>
+      <text x="22" y="32" fill="#3ad6c6" font-family="ui-monospace,Consolas,monospace" font-size="11" letter-spacing="1.3">EVENTFLOWSYS</text>
+      <text x="22" y="67" fill="#f4f0e6" font-size="21" font-weight="700">priority + TTL</text>
+      <path d="M22 86h226" stroke="#34434e"/>
+      <text x="22" y="113" fill="#99a6af" font-size="14">hooks · unread · delivery</text>
+      <text x="22" y="137" fill="#99a6af" font-size="14">pending · failed · expired</text>
+    </g>
+    <path d="M610 40h80M610 77h80M610 114h80" stroke="#42515c" stroke-width="2" stroke-dasharray="5 7"/>
+    <g transform="translate(690)" fill="#151f26" stroke="#34434e"><rect width="426" height="40" rx="7"/><rect y="57" width="426" height="40" rx="7"/><rect y="114" width="426" height="40" rx="7"/></g>
+    <g transform="translate(708)" font-family="ui-monospace,Consolas,monospace" font-size="13"><text y="25" fill="#d2d9de">workers.threaded</text><text y="82" fill="#d2d9de">workers.async</text><text y="139" fill="#d2d9de">broadcast.all</text><g fill="#6f7d87" text-anchor="end"><text x="390" y="25">DELIVERED</text><text x="390" y="82">PENDING</text><text x="390" y="139">OBSERVED</text></g></g>
+    <circle class="m1" cx="180" cy="20" r="5" fill="#3ad6c6"/><circle class="m2" cx="180" cy="77" r="5" fill="#ffb347"/><circle class="m3" cx="180" cy="134" r="5" fill="#3ad6c6"/>
+  </g>
+</svg>

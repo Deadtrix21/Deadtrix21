@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 510" width="1000" height="510" role="img" aria-labelledby="title desc">
+<title id="title">Enchanted Composer — drafts and owner-bound voice</title>
+<desc id="desc">A draft workflow links enhancement and reusable prompts to review and undo. A separate explicitly started voice workflow captures the owner and delegates tools to that same chat.</desc>
+<style>.flow{stroke-dasharray:12 16;animation:flow 5s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}.wave{transform-box:fill-box;transform-origin:center;animation:wave 1.8s ease-in-out infinite alternate}.wave:nth-child(3n){animation-delay:-.6s}.wave:nth-child(3n + 1){animation-delay:-1.2s}@keyframes flow{to{stroke-dashoffset:-140}}@keyframes pulse{50%{opacity:.4}}@keyframes wave{to{transform:scaleY(.35)}}@media(prefers-reduced-motion:reduce){.flow,.pulse,.wave{animation:none}}</style>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0H0V32" fill="none" stroke="#26333b" stroke-opacity=".35"/>
+</pattern>
+</defs>
+<rect width="1000" height="510" rx="12" fill="#0b1218"/>
+<rect x="1" y="1" width="998" height="508" rx="12" fill="url(#grid)" stroke="#2c3b43"/>
+<text x="36" y="38" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">02 / ENCHANTED COMPOSER</text>
+<text x="730" y="38" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347" letter-spacing="1.2">HERMES DESKTOP</text>
+<text x="36" y="85" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="700" fill="#f4f0e6" >Find the words. Keep the context.</text>
+<text x="36" y="117" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" fill="#aab8be" >Draft enhancement, reusable prompts, and voice bound to the chat you chose.</text>
+<text x="36" y="165" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">DRAFT / DELIBERATE EDITS</text>
+<rect x="36" y="184" width="278" height="82" rx="8" fill="#121d24" stroke="#34434e"/>
+<text x="53" y="218" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" fill="#f4f0e6" >Your draft</text>
+<text x="53" y="245" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8be" >Unsent stays unsent</text>
+<rect x="361" y="184" width="278" height="82" rx="8" fill="#121d24" stroke="#34434e"/>
+<text x="378" y="218" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" fill="#f4f0e6" >Enhance + prompts</text>
+<text x="378" y="245" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8be" >Reusable instructions</text>
+<rect x="686" y="184" width="278" height="82" rx="8" fill="#121d24" stroke="#34434e"/>
+<text x="703" y="218" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" fill="#f4f0e6" >Review + history</text>
+<text x="703" y="245" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8be" >Multi-step undo / redo</text>
+<path d="M314 225h47" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<path d="M639 225h47" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
+<text x="36" y="316" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347" letter-spacing="1.2">VOICE / EXPLICIT START</text>
+<rect x="36" y="335" width="278" height="90" rx="8" fill="#121d24" stroke="#53604e"/>
+<text x="53" y="369" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" fill="#f4f0e6" >Capture the owner</text>
+<text x="53" y="398" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8be" >Connection / profile / chat</text>
+<rect x="361" y="335" width="278" height="90" rx="8" fill="#121d24" stroke="#53604e"/>
+<text x="378" y="369" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" fill="#f4f0e6" >Live conversation</text>
+<text x="378" y="398" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8be" >Full-duplex audio</text>
+<rect x="686" y="335" width="278" height="90" rx="8" fill="#121d24" stroke="#53604e"/>
+<text x="703" y="369" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" fill="#f4f0e6" >Hermes tool work</text>
+<text x="703" y="398" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8be" >Returns to the bound chat</text>
+<path d="M314 380h47" fill="none" stroke="#ffb347" stroke-width="2" class="flow"/>
+<path d="M639 380h47" fill="none" stroke="#ffb347" stroke-width="2" class="flow"/>
+<circle class="pulse" cx="931" cy="309" r="5" fill="#ffb347"/>
+<path d="M36 453H964" fill="none" stroke="#34434e" stroke-width="2" class=""/>
+<text x="36" y="482" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8be" >Native send controls stay intact. Ordinary voice transcripts remain temporary.</text>
+</svg>
