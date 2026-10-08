@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="365" viewBox="0 0 1000 365" role="img" aria-labelledby="title desc">
+<title id="title">Deadtrix21 — I build to understand</title>
+<desc id="desc">A personal engineering field-note banner: software, systems, and interfaces, connected by a question, build, measure, refine signal path.</desc>
+<style>
+.flow{stroke-dasharray:18 14;animation:flow 5s linear infinite}
+.pulse{animation:pulse 3s ease-in-out infinite}
+.orbit{transform-origin:813px 183px;animation:orbit 24s linear infinite}
+.scan{animation:scan 4s ease-in-out infinite alternate}
+@keyframes flow{to{stroke-dashoffset:-160}}
+@keyframes pulse{50%{opacity:.35}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes scan{to{transform:translateX(110px)}}
+@media(prefers-reduced-motion:reduce){.flow,.pulse,.orbit,.scan{animation:none}}
+</style>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0H0V32" fill="none" stroke="#26343d" stroke-opacity=".34"/>
+</pattern>
+</defs>
+<rect width="1000" height="365" rx="12" fill="#0b1015"/>
+<rect x="1" y="1" width="998" height="363" rx="12" fill="url(#grid)" stroke="#34434e"/>
+<text x="38" y="40" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">DEVELOPER / PERSONAL FIELD NOTES</text>
+<text x="875" y="40" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347" letter-spacing="1.2">D / 21</text>
+<text x="37" y="143" font-family="Arial,Helvetica,sans-serif" font-size="74" font-weight="800" fill="#f4f0e6" letter-spacing="-3">DEADTRIX21</text>
+<text x="41" y="208" font-family="Georgia,serif" font-size="40" font-weight="400" fill="#f4f0e6" font-style="italic">I build to understand.</text>
+<text x="42" y="255" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#aab8c0" >Software, systems, and the interfaces between them.</text>
+<text x="42" y="327" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">CURIOUS BY DEFAULT. CODE-FIRST BY CHOICE.</text>
+<path d="M653 272L711 199L813 183L930 110" fill="none" stroke="#34434e" stroke-width="2" class="" />
+<path d="M653 272L711 199L813 183L930 110" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow" />
+<circle cx="653" cy="272" r="6" fill="#0b1015" class=""/>
+<circle cx="653" cy="272" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<text x="653" y="301" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#aab8c0" text-anchor="middle">QUESTION</text>
+<circle cx="711" cy="199" r="6" fill="#0b1015" class=""/>
+<circle cx="711" cy="199" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<text x="711" y="176" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#aab8c0" text-anchor="middle">BUILD</text>
+<circle cx="813" cy="183" r="6" fill="#0b1015" class=""/>
+<circle cx="813" cy="183" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<text x="813" y="214" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#aab8c0" text-anchor="middle">MEASURE</text>
+<circle cx="930" cy="110" r="6" fill="#0b1015" class=""/>
+<circle cx="930" cy="110" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<text x="930" y="87" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#aab8c0" text-anchor="middle">REFINE</text>
+<circle class="orbit" cx="813" cy="183" r="62" fill="none" stroke="#3ad6c6" stroke-opacity=".3" stroke-dasharray="8 13"/>
+<circle cx="813" cy="183" r="4" fill="#3ad6c6" class="pulse"/>
+</svg>

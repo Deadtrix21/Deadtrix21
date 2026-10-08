@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="392" viewBox="0 0 1000 392" role="img" aria-labelledby="title desc">
+<title id="title">Selected public work at Noxius Studium</title>
+<desc id="desc">FluidMusic coordinates music sources; Enchanted Composer supports drafts, prompts and voice; EventFlowSys routes messages. Concept diagrams, not application screenshots.</desc>
+<style>
+.flow{stroke-dasharray:18 14;animation:flow 5s linear infinite}
+.pulse{animation:pulse 3s ease-in-out infinite}
+.orbit{transform-origin:813px 183px;animation:orbit 24s linear infinite}
+.scan{animation:scan 4s ease-in-out infinite alternate}
+@keyframes flow{to{stroke-dashoffset:-160}}
+@keyframes pulse{50%{opacity:.35}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes scan{to{transform:translateX(110px)}}
+@media(prefers-reduced-motion:reduce){.flow,.pulse,.orbit,.scan{animation:none}}
+</style>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0H0V32" fill="none" stroke="#26343d" stroke-opacity=".34"/>
+</pattern>
+</defs>
+<rect width="1000" height="392" rx="12" fill="#0b1015"/>
+<rect x="1" y="1" width="998" height="390" rx="12" fill="url(#grid)" stroke="#34434e"/>
+<text x="36" y="38" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347" letter-spacing="1.2">SELECTED WORK / NOXIUS STUDIUM</text>
+<text x="36" y="85" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f4f0e6" >Things I have been building.</text>
+<rect x="36" y="117" width="280" height="247" rx="8" fill="#131e25" stroke="#34434e"/>
+<rect x="360" y="117" width="280" height="247" rx="8" fill="#131e25" stroke="#34434e"/>
+<rect x="684" y="117" width="280" height="247" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="56" y="149" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">FLUIDMUSIC</text>
+<text x="56" y="180" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600" fill="#f4f0e6" >A place for the music.</text>
+<rect x="56" y="195" width="91" height="24" rx="4" fill="#131e25" stroke="#34434e"/>
+<text x="63" y="212" font-family="Consolas,monospace" font-size="12" font-weight="400" fill="#aab8c0" >SPOTIFY</text>
+<path d="M147 207H172V241H185" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow" />
+<rect x="56" y="229" width="91" height="24" rx="4" fill="#131e25" stroke="#34434e"/>
+<text x="63" y="246" font-family="Consolas,monospace" font-size="12" font-weight="400" fill="#aab8c0" >RADIO</text>
+<path d="M147 241H172V241H185" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow" />
+<rect x="56" y="263" width="91" height="24" rx="4" fill="#131e25" stroke="#34434e"/>
+<text x="63" y="280" font-family="Consolas,monospace" font-size="12" font-weight="400" fill="#aab8c0" >LOCAL</text>
+<path d="M147 275H172V241H185" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow" />
+<rect x="185" y="221" width="107" height="40" rx="8" fill="#131e25" stroke="#3ad6c6"/>
+<text x="238" y="246" font-family="Consolas,monospace" font-size="16" font-weight="400" fill="#f4f0e6" text-anchor="middle">QUEUE</text>
+<text x="56" y="335" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" fill="#aab8c0" >Different playback engines.</text>
+<text x="380" y="149" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">ENCHANTED COMPOSER</text>
+<text x="380" y="180" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600" fill="#f4f0e6" >Room to find the words.</text>
+<path d="M382 218H590" fill="none" stroke="#aab8c0" stroke-width="3" class="" />
+<path d="M382 238H565" fill="none" stroke="#aab8c0" stroke-width="3" class="" />
+<path d="M382 258H540" fill="none" stroke="#aab8c0" stroke-width="3" class="" />
+<path d="M382 287H600" fill="none" stroke="#34434e" stroke-width="2" class="" />
+<path d="M382 287H432" fill="none" stroke="#3ad6c6" stroke-width="3" class="scan" />
+<circle cx="601" cy="287" r="4" fill="#ffb347" class="pulse"/>
+<text x="380" y="335" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" fill="#aab8c0" >Drafts, prompts, and voice.</text>
+<text x="704" y="149" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">EVENTFLOWSYS</text>
+<text x="704" y="180" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600" fill="#f4f0e6" >Follow the message.</text>
+<circle cx="721" cy="242" r="7" fill="#ffb347" class=""/>
+<rect x="758" y="221" width="85" height="42" rx="8" fill="#131e25" stroke="#3ad6c6"/>
+<text x="800" y="248" font-family="Consolas,monospace" font-size="16" font-weight="400" fill="#f4f0e6" text-anchor="middle">BUS</text>
+<path d="M729 242H758M843 242H864V212H920M864 242H920M864 242V272H920" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow" />
+<circle cx="928" cy="212" r="6" fill="#3ad6c6" class=""/>
+<circle cx="928" cy="242" r="6" fill="#3ad6c6" class=""/>
+<circle cx="928" cy="272" r="6" fill="#3ad6c6" class=""/>
+<text x="704" y="335" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" fill="#aab8c0" >Threads, asyncio, and hooks.</text>
+</svg>

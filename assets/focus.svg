@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="377" viewBox="0 0 1000 377" role="img" aria-labelledby="title desc">
+<title id="title">Systems, contracts, interfaces</title>
+<desc id="desc">Three interests connected across the stack: memory and native boundaries; events and protocol behaviour; desktop tools and interaction design.</desc>
+<style>
+.flow{stroke-dasharray:18 14;animation:flow 5s linear infinite}
+.pulse{animation:pulse 3s ease-in-out infinite}
+.orbit{transform-origin:813px 183px;animation:orbit 24s linear infinite}
+.scan{animation:scan 4s ease-in-out infinite alternate}
+@keyframes flow{to{stroke-dashoffset:-160}}
+@keyframes pulse{50%{opacity:.35}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes scan{to{transform:translateX(110px)}}
+@media(prefers-reduced-motion:reduce){.flow,.pulse,.orbit,.scan{animation:none}}
+</style>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0H0V32" fill="none" stroke="#26343d" stroke-opacity=".34"/>
+</pattern>
+</defs>
+<rect width="1000" height="377" rx="12" fill="#0b1015"/>
+<rect x="1" y="1" width="998" height="375" rx="12" fill="url(#grid)" stroke="#34434e"/>
+<text x="36" y="38" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347" letter-spacing="1.2">WHAT KEEPS ME CURIOUS</text>
+<text x="735" y="38" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#aab8c0" letter-spacing="1.2">LOW LEVEL / HIGH TOUCH</text>
+<text x="36" y="84" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f4f0e6" >From the mechanism to the experience.</text>
+<rect x="36" y="116" width="280" height="193" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="54" y="145" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347" letter-spacing="1.2">01</text>
+<text x="95" y="145" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">SYSTEMS</text>
+<text x="54" y="187" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600" fill="#f4f0e6" >Understand the machinery.</text>
+<path d="M54 206H298" fill="none" stroke="#34434e" stroke-width="2" class="" />
+<text x="54" y="239" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8c0" >Memory &amp; throughput</text>
+<text x="54" y="268" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8c0" >Native code &amp; FFI</text>
+<rect x="360" y="116" width="280" height="193" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="378" y="145" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347" letter-spacing="1.2">02</text>
+<text x="419" y="145" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">CONTRACTS</text>
+<text x="378" y="187" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600" fill="#f4f0e6" >Make behaviour explicit.</text>
+<path d="M378 206H622" fill="none" stroke="#34434e" stroke-width="2" class="" />
+<text x="378" y="239" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8c0" >Events &amp; API boundaries</text>
+<text x="378" y="268" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8c0" >Protocols &amp; conformance</text>
+<rect x="684" y="116" width="280" height="193" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="702" y="145" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347" letter-spacing="1.2">03</text>
+<text x="743" y="145" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">INTERFACES</text>
+<text x="702" y="187" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600" fill="#f4f0e6" >Make it worth using.</text>
+<path d="M702 206H946" fill="none" stroke="#34434e" stroke-width="2" class="" />
+<text x="702" y="239" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8c0" >Desktop tools &amp; workflows</text>
+<text x="702" y="268" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8c0" >Interaction &amp; visual detail</text>
+<path d="M316 211H360M640 211H684" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow" />
+<circle cx="338" cy="211" r="4" fill="#ffb347" class=""/>
+<circle cx="662" cy="211" r="4" fill="#ffb347" class=""/>
+<text x="36" y="348" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#aab8c0" >Different layers. The same urge to find out how things work.</text>
+</svg>

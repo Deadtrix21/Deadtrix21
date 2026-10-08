@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="145" viewBox="0 0 1000 145" role="img" aria-labelledby="title desc">
+<title id="title">Question, build, test, measure, refine</title>
+<desc id="desc">A personal working loop that moves from curiosity to implementation and evidence, then back to refinement.</desc>
+<style>
+.flow{stroke-dasharray:18 14;animation:flow 5s linear infinite}
+.pulse{animation:pulse 3s ease-in-out infinite}
+.orbit{transform-origin:813px 183px;animation:orbit 24s linear infinite}
+.scan{animation:scan 4s ease-in-out infinite alternate}
+@keyframes flow{to{stroke-dashoffset:-160}}
+@keyframes pulse{50%{opacity:.35}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes scan{to{transform:translateX(110px)}}
+@media(prefers-reduced-motion:reduce){.flow,.pulse,.orbit,.scan{animation:none}}
+</style>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0H0V32" fill="none" stroke="#26343d" stroke-opacity=".34"/>
+</pattern>
+</defs>
+<rect width="1000" height="145" rx="12" fill="#0b1015"/>
+<rect x="1" y="1" width="998" height="143" rx="12" fill="url(#grid)" stroke="#34434e"/>
+<text x="36" y="36" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347" letter-spacing="1.2">HOW I WORK</text>
+<path d="M56 80H928" fill="none" stroke="#34434e" stroke-width="2" class="" />
+<path d="M56 80H928" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow" />
+<circle cx="56" cy="80" r="7" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<text x="56" y="116" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#f4f0e6" text-anchor="middle">QUESTION</text>
+<circle cx="274" cy="80" r="7" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<text x="274" y="116" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#f4f0e6" text-anchor="middle">BUILD</text>
+<circle cx="492" cy="80" r="7" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<text x="492" y="116" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#f4f0e6" text-anchor="middle">TEST</text>
+<circle cx="710" cy="80" r="7" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<text x="710" y="116" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#f4f0e6" text-anchor="middle">MEASURE</text>
+<circle cx="928" cy="80" r="7" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
+<text x="928" y="116" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#f4f0e6" text-anchor="middle">REFINE</text>
+</svg>
