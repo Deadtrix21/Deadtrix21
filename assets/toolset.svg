@@ -1,39 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="468" viewBox="0 0 1000 468" role="img" aria-labelledby="title desc">
-<title id="title">Tools I reach for — application logic, interfaces, data and environment</title>
-<desc id="desc">Languages and tools grouped by the work they support, with Go, Java and Kotlin identified separately as learning and exploration.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="550" viewBox="0 0 1000 550" role="img" aria-labelledby="title desc">
+<title id="title">Tools I reach for — current languages, frameworks, protocols and environments</title>
+<desc id="desc">A current workbench spanning C#, PHP, Python, JavaScript, TypeScript, React, Next.js, Rust, C++, Tauri, FastAPI, Laravel, SQLAlchemy, REST, GraphQL, SOAP, gRPC, databases, Docker, Linux, testing tools, and active exploration in Go, Kotlin and Java.</desc>
 <style>.flow{stroke-dasharray:12 16;animation:flow 5s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}@keyframes flow{to{stroke-dashoffset:-140}}@keyframes pulse{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}</style>
 <defs>
 <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
 <path d="M32 0H0V32" fill="none" stroke="#26343d" stroke-opacity=".34"/>
 </pattern>
 </defs>
-<rect width="1000" height="468" rx="12" fill="#0b1015"/>
-<rect x="1" y="1" width="998" height="466" rx="12" fill="url(#grid)" stroke="#34434e"/>
+<rect width="1000" height="550" rx="12" fill="#0b1015"/>
+<rect x="1" y="1" width="998" height="548" rx="12" fill="url(#grid)" stroke="#34434e"/>
 <text x="36" y="38" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347">TOOLS I REACH FOR</text>
 <text x="36" y="84" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#f4f0e6">Choose the tool. Understand the trade-off.</text>
-<path d="M57 156V360" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
-<circle cx="57" cy="155" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
-<path d="M63 155H86" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
-<rect x="86" y="123" width="878" height="56" rx="8" fill="#131e25" stroke="#34434e"/>
-<text x="105" y="156" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">APPLICATION LOGIC</text>
-<text x="345" y="158" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#f4f0e6">C#  /  PHP  /  Python  /  JavaScript</text>
-<circle cx="57" cy="223" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
-<path d="M63 223H86" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
-<rect x="86" y="191" width="878" height="56" rx="8" fill="#131e25" stroke="#34434e"/>
-<text x="105" y="224" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">INTERFACES</text>
-<text x="345" y="226" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#f4f0e6">TypeScript  /  React  /  Laravel  /  WPF</text>
-<circle cx="57" cy="291" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
-<path d="M63 291H86" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
-<rect x="86" y="259" width="878" height="56" rx="8" fill="#131e25" stroke="#34434e"/>
-<text x="105" y="292" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">DATA</text>
-<text x="345" y="294" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#f4f0e6">MySQL  /  SQL Server  /  MongoDB</text>
-<circle cx="57" cy="359" r="6" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
-<path d="M63 359H86" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow"/>
-<rect x="86" y="327" width="878" height="56" rx="8" fill="#131e25" stroke="#34434e"/>
-<text x="105" y="360" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">ENVIRONMENT</text>
-<text x="345" y="362" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" fill="#f4f0e6">Docker  /  Linux  /  WSL</text>
-<path d="M36 406H964" fill="none" stroke="#34434e" stroke-width="2" class=""/>
-<text x="36" y="441" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347">EXPLORING</text>
-<text x="182" y="441" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" fill="#aab8c0">Go / Java / Kotlin</text>
-<text x="610" y="441" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#aab8c0">Learning is part of the workflow.</text>
+<text x="787" y="38" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#aab8c0">CURRENT WORKBENCH</text>
+<rect x="36" y="122" width="448" height="96" rx="8" fill="#131e25" stroke="#34434e"/>
+<rect x="36" y="122" width="5" height="96" rx="2.5" fill="#3ad6c6"/>
+<text x="58" y="150" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">APPLICATION &amp; SERVICES</text>
+<text x="58" y="180" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">C#  ·  PHP  ·  Python  ·  JavaScript</text>
+<text x="58" y="204" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">FastAPI  ·  Laravel  ·  SQLAlchemy</text>
+<rect x="516" y="122" width="448" height="96" rx="8" fill="#131e25" stroke="#34434e"/>
+<rect x="516" y="122" width="5" height="96" rx="2.5" fill="#3ad6c6"/>
+<text x="538" y="150" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">PRODUCT INTERFACES</text>
+<text x="538" y="180" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">TypeScript  ·  React  ·  Next.js  ·  Vite</text>
+<text x="538" y="204" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">Inertia.js  ·  WPF  ·  Tailwind</text>
+<rect x="36" y="242" width="448" height="96" rx="8" fill="#131e25" stroke="#34434e"/>
+<rect x="36" y="242" width="5" height="96" rx="2.5" fill="#3ad6c6"/>
+<text x="58" y="270" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">SYSTEMS &amp; NATIVE</text>
+<text x="58" y="300" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">Rust  ·  C++  ·  Tauri  ·  FFI</text>
+<text x="58" y="324" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">native libraries  ·  Node-API</text>
+<rect x="516" y="242" width="448" height="96" rx="8" fill="#131e25" stroke="#34434e"/>
+<rect x="516" y="242" width="5" height="96" rx="2.5" fill="#3ad6c6"/>
+<text x="538" y="270" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">PROTOCOLS &amp; DATA</text>
+<text x="538" y="300" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">REST  ·  GraphQL  ·  SOAP  ·  gRPC</text>
+<text x="538" y="324" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">MySQL  ·  SQL Server  ·  MongoDB</text>
+<rect x="36" y="362" width="448" height="96" rx="8" fill="#131e25" stroke="#34434e"/>
+<rect x="36" y="362" width="5" height="96" rx="2.5" fill="#3ad6c6"/>
+<text x="58" y="390" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">TEST &amp; DELIVERY</text>
+<text x="58" y="420" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">Docker  ·  Linux / WSL  ·  Playwright</text>
+<text x="58" y="444" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">pytest  ·  Vitest  ·  CI</text>
+<rect x="516" y="362" width="448" height="96" rx="8" fill="#131e25" stroke="#34434e"/>
+<rect x="516" y="362" width="5" height="96" rx="2.5" fill="#3ad6c6"/>
+<text x="538" y="390" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">ACTIVE EXPLORATION</text>
+<text x="538" y="420" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">Go  ·  Kotlin  ·  Java</text>
+<text x="538" y="444" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">ports  ·  mobile  ·  cross-platform</text>
+<path d="M36 493H964" fill="none" stroke="#34434e" stroke-width="2" class=""/>
+<circle cx="44" cy="522" r="5" fill="#ffb347" class="pulse"/>
+<text x="60" y="528" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#f4f0e6">Different problems deserve different tools—not a scoreboard of logos.</text>
+<text x="800" y="527" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347">BUILD / TEST / LEARN</text>
 </svg>

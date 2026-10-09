@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="145" viewBox="0 0 1000 145" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="345" viewBox="0 0 1000 345" role="img" aria-labelledby="title desc">
 <title id="title">Question, build, test, measure, refine</title>
-<desc id="desc">A personal working loop that moves from curiosity to implementation and evidence, then back to refinement.</desc>
+<desc id="desc">A personal working loop from curiosity to implementation and evidence, supported by four principles: code first, measure trade-offs, keep boundaries visible, and leave useful work behind.</desc>
 <style>
 .flow{stroke-dasharray:18 14;animation:flow 5s linear infinite}
 .pulse{animation:pulse 3s ease-in-out infinite}
@@ -17,8 +17,8 @@
 <path d="M32 0H0V32" fill="none" stroke="#26343d" stroke-opacity=".34"/>
 </pattern>
 </defs>
-<rect width="1000" height="145" rx="12" fill="#0b1015"/>
-<rect x="1" y="1" width="998" height="143" rx="12" fill="url(#grid)" stroke="#34434e"/>
+<rect width="1000" height="345" rx="12" fill="#0b1015"/>
+<rect x="1" y="1" width="998" height="343" rx="12" fill="url(#grid)" stroke="#34434e"/>
 <text x="36" y="36" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#ffb347" letter-spacing="1.2">HOW I WORK</text>
 <path d="M56 80H928" fill="none" stroke="#34434e" stroke-width="2" class="" />
 <path d="M56 80H928" fill="none" stroke="#3ad6c6" stroke-width="2" class="flow" />
@@ -32,4 +32,16 @@
 <text x="710" y="116" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#f4f0e6" text-anchor="middle">MEASURE</text>
 <circle cx="928" cy="80" r="7" fill="#0b1015" stroke="#ffb347" stroke-width="2"/>
 <text x="928" y="116" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#f4f0e6" text-anchor="middle">REFINE</text>
+<rect x="36" y="150" width="458" height="76" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="54" y="178" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">CODE FIRST</text>
+<text x="54" y="206" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#f4f0e6" >Runnable evidence beats an untested assumption.</text>
+<rect x="506" y="150" width="458" height="76" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="524" y="178" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">MEASURE THE TRADE-OFF</text>
+<text x="524" y="206" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#f4f0e6" >Size and speed matter when the data supports them.</text>
+<rect x="36" y="244" width="458" height="76" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="54" y="272" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">KEEP THE SEAMS VISIBLE</text>
+<text x="54" y="300" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#f4f0e6" >Ownership, limits, and failure modes stay documented.</text>
+<rect x="506" y="244" width="458" height="76" rx="8" fill="#131e25" stroke="#34434e"/>
+<text x="524" y="272" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6" letter-spacing="1.2">LEAVE VALUE BEHIND</text>
+<text x="524" y="300" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#f4f0e6" >A tool, a test, an example, or a clearer explanation.</text>
 </svg>

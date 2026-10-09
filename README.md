@@ -67,30 +67,15 @@ A Python event bus with **threaded and `asyncio` implementations**, grouped subs
 
 My experimental cryptography and native-library work. The public repository currently contains **binary artifacts, example files, and screenshots**, rather than the implementation source. It is a research project—not a claim of independently audited or production-proven cryptography.
 
-**Also worth exploring:** [REST / GraphQL / SOAP](https://github.com/noxius-studium/soap-json-graphql-example), an educational comparison around a shared user domain. My private workbench also includes South African ID-number conformance and desktop tooling; those are not public downloads.
+**Also worth exploring:** [REST / GraphQL / SOAP / gRPC](https://github.com/noxius-studium/soap-json-graphql-example), an educational comparison built around one shared resource registry, SQLAlchemy domain model, and contract tests. My private workbench also includes South African ID-number conformance, Rust/Tauri desktop tooling, and Kotlin cross-platform experiments; those are not public downloads.
 
 ## Tools I reach for
 
-<img src="./assets/toolset.svg" width="100%" alt="My toolset grouped by application logic, interfaces, data, and environment. Go, Java, and Kotlin remain learning and exploration areas." />
-
-| Area | Languages and tools |
-| :--- | :--- |
-| Professional experience | C#, PHP, Python, JavaScript, HTML, CSS |
-| Web & desktop interfaces | TypeScript, React, Laravel, Inertia.js, Vite, WPF |
-| Native & integration work | C++, native libraries, FFI |
-| Data & environment | MySQL, SQL Server, MongoDB, Docker, Linux / WSL |
-| Learning & exploring | Go, Java, Kotlin |
-
-Different tools for different problems—not a scoreboard of logos.
+<img src="./assets/toolset.svg" width="100%" alt="My current workbench: C#, PHP, Python, JavaScript, TypeScript, React, Next.js, Rust, C++, Tauri, FastAPI, Laravel, SQLAlchemy, REST, GraphQL, SOAP, gRPC, databases, Docker, Linux, testing tools, and active exploration in Go, Kotlin, and Java." />
 
 ## How I work
 
 <img src="./assets/working-loop.svg" width="100%" alt="Question, build, test, measure, refine." />
-
-- **Code first.** A runnable example teaches me more than an untested assumption.
-- **Measure the trade-off.** A smaller binary or a faster path matters when the evidence supports it.
-- **Keep the seams visible.** Ownership, provider limits, and failure modes belong in the documentation.
-- **Leave something useful behind.** A tool, a test, a clear example, or a better explanation.
 
 ## Say hello
 
