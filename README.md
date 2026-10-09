@@ -71,11 +71,11 @@ My experimental cryptography and native-library work. The public repository curr
 
 ## Tools I reach for
 
-<img src="./assets/toolset.svg" width="100%" alt="My current workbench: C#, PHP, Python, JavaScript, TypeScript, React, Next.js, Rust, C++, Tauri, FastAPI, Laravel, SQLAlchemy, REST, GraphQL, SOAP, gRPC, databases, Docker, Linux, testing tools, and active exploration in Go, Kotlin, and Java." />
+<img src="./assets/toolset.svg?v=2" width="100%" alt="My current workbench: C#, PHP, Python, JavaScript, TypeScript, React, Next.js, Rust, C++, Tauri, FastAPI, Laravel, SQLAlchemy, REST, GraphQL, SOAP, gRPC, databases, Docker, Linux, testing tools, and active exploration in Go, Kotlin, and Java." />
 
 ## How I work
 
-<img src="./assets/working-loop.svg" width="100%" alt="Question, build, test, measure, refine." />
+<img src="./assets/working-loop.svg?v=2" width="100%" alt="Question, build, test, measure, refine." />
 
 ## Say hello
 
