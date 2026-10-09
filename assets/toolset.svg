@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="550" viewBox="0 0 1000 550" role="img" aria-labelledby="title desc">
 <title id="title">Tools I reach for — current languages, frameworks, protocols and environments</title>
-<desc id="desc">A current workbench spanning C#, PHP, Python, JavaScript, TypeScript, React, Next.js, Rust, C++, Tauri, FastAPI, Laravel, SQLAlchemy, REST, GraphQL, SOAP, gRPC, databases, Docker, Linux, testing tools, and active exploration in Go, Kotlin and Java.</desc>
+<desc id="desc">A current workbench spanning C#, PHP, Python, JavaScript, TypeScript, React, Next.js, HTML, CSS, Rust, C++, C, Tauri, FastAPI, Laravel, SQLAlchemy, REST, GraphQL, SOAP, gRPC, databases, Docker, Linux, PowerShell, Playwright, pytest, Vitest, and active exploration in Go, Kotlin, Java and Swift.</desc>
 <style>.flow{stroke-dasharray:12 16;animation:flow 5s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}@keyframes flow{to{stroke-dashoffset:-140}}@keyframes pulse{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}</style>
 <defs>
 <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
@@ -21,27 +21,27 @@
 <rect x="516" y="122" width="5" height="96" rx="2.5" fill="#3ad6c6"/>
 <text x="538" y="150" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">PRODUCT INTERFACES</text>
 <text x="538" y="180" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">TypeScript  ·  React  ·  Next.js  ·  Vite</text>
-<text x="538" y="204" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">Inertia.js  ·  WPF  ·  Tailwind</text>
+<text x="538" y="204" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">HTML  ·  CSS  ·  Tailwind  ·  Inertia.js  ·  WPF</text>
 <rect x="36" y="242" width="448" height="96" rx="8" fill="#131e25" stroke="#34434e"/>
 <rect x="36" y="242" width="5" height="96" rx="2.5" fill="#3ad6c6"/>
 <text x="58" y="270" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">SYSTEMS &amp; NATIVE</text>
-<text x="58" y="300" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">Rust  ·  C++  ·  Tauri  ·  FFI</text>
-<text x="58" y="324" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">native libraries  ·  Node-API</text>
+<text x="58" y="300" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">Rust  ·  C++  ·  C  ·  Tauri</text>
+<text x="58" y="324" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">FFI  ·  Node-API  ·  Tokio</text>
 <rect x="516" y="242" width="448" height="96" rx="8" fill="#131e25" stroke="#34434e"/>
 <rect x="516" y="242" width="5" height="96" rx="2.5" fill="#3ad6c6"/>
 <text x="538" y="270" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">PROTOCOLS &amp; DATA</text>
 <text x="538" y="300" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">REST  ·  GraphQL  ·  SOAP  ·  gRPC</text>
-<text x="538" y="324" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">MySQL  ·  SQL Server  ·  MongoDB</text>
+<text x="538" y="324" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">MySQL  ·  SQL Server  ·  MongoDB  ·  SeaORM</text>
 <rect x="36" y="362" width="448" height="96" rx="8" fill="#131e25" stroke="#34434e"/>
 <rect x="36" y="362" width="5" height="96" rx="2.5" fill="#3ad6c6"/>
 <text x="58" y="390" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">TEST &amp; DELIVERY</text>
-<text x="58" y="420" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">Docker  ·  Linux / WSL  ·  Playwright</text>
-<text x="58" y="444" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">pytest  ·  Vitest  ·  CI</text>
+<text x="58" y="420" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">Docker  ·  Linux / WSL  ·  PowerShell</text>
+<text x="58" y="444" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">Playwright  ·  pytest  ·  Vitest  ·  CI</text>
 <rect x="516" y="362" width="448" height="96" rx="8" fill="#131e25" stroke="#34434e"/>
 <rect x="516" y="362" width="5" height="96" rx="2.5" fill="#3ad6c6"/>
 <text x="538" y="390" font-family="Consolas,monospace" font-size="14" font-weight="400" fill="#3ad6c6">ACTIVE EXPLORATION</text>
-<text x="538" y="420" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">Go  ·  Kotlin  ·  Java</text>
-<text x="538" y="444" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">ports  ·  mobile  ·  cross-platform</text>
+<text x="538" y="420" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" fill="#f4f0e6">Go  ·  Kotlin  ·  Java  ·  Swift</text>
+<text x="538" y="444" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#aab8c0">Ktor  ·  mobile  ·  cross-platform</text>
 <path d="M36 493H964" fill="none" stroke="#34434e" stroke-width="2" class=""/>
 <circle cx="44" cy="522" r="5" fill="#ffb347" class="pulse"/>
 <text x="60" y="528" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" fill="#f4f0e6">Different problems deserve different tools—not a scoreboard of logos.</text>
